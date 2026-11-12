@@ -1,0 +1,8 @@
+2026-11-12 13:51:25 | ERROR    | demo | logger.py:321 | This is an ERROR message — red
+2026-11-12 13:51:25 | CRITICAL | demo | logger.py:322 | This is a CRITICAL message — bold red background
+2026-11-12 13:51:25 | ERROR    | demo | logger.py:327 | Caught an exception with traceback logging
+Traceback (most recent call last):
+  File "c:\Users\ranji\Workbench\arc\app\utils\logger.py", line 325, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
